@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'DrawerTitleComp.dart';
 import 'package:carousel_pro/carousel_pro.dart';
 import 'horizantallist.dart';
+import 'package:show_shop_app/Product.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -86,12 +87,16 @@ class _HomePageState extends State<HomePage> {
           ),
           HorizzontalList(),
           Padding(
-            padding: const EdgeInsets.only(top: 15.0,bottom: 15.0,left: 4.0),
+            padding: const EdgeInsets.only(top: 15.0, bottom: 15.0, left: 4.0),
             child: Text('Recet Product'),
           ),
-
+          Container(
+            height: 300.0,
+            child: Product(),
+          )
         ],
       ),
     );
   }
 }
+

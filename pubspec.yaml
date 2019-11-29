@@ -45,6 +45,7 @@ flutter:
   assets:
     - images/
     - images/cats/
+    - images/products/
 #  assets:
   #   - images/c1.png
   #   - images/m1.png
